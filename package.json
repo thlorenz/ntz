@@ -1,7 +1,7 @@
 {
   "name": "ntz",
   "version": "0.0.0",
-  "description": "Normalizes timezone inside a date string to be parsable convertible to a JavaScript Date.",
+  "description": "Normalizes timezone inside a date string to make it convertible to a JavaScript Date.",
   "main": "ntz.js",
   "scripts": {
     "test": "tape test/*.js"
