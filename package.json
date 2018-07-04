@@ -1,0 +1,31 @@
+{
+  "name": "ntz",
+  "version": "0.0.0",
+  "description": "Normalizes timezone inside a date string to be parsable convertible to a JavaScript Date.",
+  "main": "ntz.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/ntz.git"
+  },
+  "homepage": "https://github.com/thlorenz/ntz",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~4.9.1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/ntz/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=6"
+  }
+}
