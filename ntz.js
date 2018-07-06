@@ -3,6 +3,9 @@
 // https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
 // Removed duplicate abbreviations by selecting one that I believe is more likely used.
 
+// More timezones here: https://mainfacts.com/world-timezones-time-zones
+// Pull them in as needed.
+
 /* eslint-disable comma-spacing, standard/array-bracket-even-spacing */
 const zoneMap = new Map([
   // more common
@@ -190,6 +193,7 @@ const zoneMap = new Map([
   , [ / WST/   , ' +08'   ]
   , [ / YAKT/  , ' +09'   ]
   , [ / YEKT/  , ' +05'   ]
+  , [ / YEKST/ , ' +06'   ]
 ])
 
 /**
